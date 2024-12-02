@@ -2,9 +2,9 @@ import os
 
 # All necessary tokens, passwords, etc.
 # Your bluesky handle should include your instance, so for example handle.bsky.social if you are on the main one.
-BSKY_HANDLE = ""
+BSKY_HANDLE = "anythingbotde.bsky.social"
 # Generate an app password in the settings on bluesky. DO NOT use your main password.
-BSKY_PASSWORD = ""
+BSKY_PASSWORD = "burrrrrrrr"
 # Your mastodon handle. Not needed for authentication, but used for making "quote posts".
 MASTODON_HANDLE = ""
 # The mastodon instance your account is on.
@@ -14,10 +14,10 @@ MASTODON_INSTANCE = ""
 MASTODON_TOKEN = ""
 # Get api keys and tokens from the twitter developer portal (developer.twitter.com). You need to create a project
 # and make sure the access token and secret has read and write permissions.
-TWITTER_APP_KEY = ""
-TWITTER_APP_SECRET = ""
-TWITTER_ACCESS_TOKEN = ""
-TWITTER_ACCESS_TOKEN_SECRET = ""
+TWITTER_APP_KEY = "KA9lbIsYK8l1JylIR4SXSsAZt"
+TWITTER_APP_SECRET = "5PajZ1WxDBWvLxmuzUOB0h7ueUwHK3ZACtgWluLMaDacPhDaFM"
+TWITTER_ACCESS_TOKEN = "1467409705148379137-IuCAhqejHGJLT04KiYOd1HqlCmmWWc"
+TWITTER_ACCESS_TOKEN_SECRET = "1qC8o18i5ybWmNc9pbZCH988kt3snZzCKf3iE7nP97Hvk"
 
 # Override settings with environment variables if they exist
 BSKY_HANDLE = os.environ.get('BSKY_HANDLE') if os.environ.get('BSKY_HANDLE') else BSKY_HANDLE
