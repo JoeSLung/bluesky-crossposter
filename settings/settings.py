@@ -3,7 +3,7 @@ import os
 # Enables/disables crossposting to twitter and mastodon
 # Accepted values: True, False
 Twitter = True
-Mastodon = True
+Mastodon = False
 # log_level determines what messages will be written to the log.
 # "error" means only error messages will be written to the log.
 # "verbose" means all messages will be written to the log.
@@ -36,14 +36,14 @@ post_default = True
 mastodon_lang = ""
 twitter_lang = ""
 # quote_posts determines if quote reposts of other users' posts should be crossposted with the quoted post included as a link. If False these posts will be ignored.
-quote_posts = True
+quote_posts = False
 # max_retries sets maximum amount of times poster will retry a failed crosspost.
 # Accepted values: Integers greater than 0
 max_retries = 5
 # post_time_limit sets max time limit (in hours) for fetching posts. If no database exists, all posts within this time 
 # period will be posted.
 # Accepted values: Integers greater than 0
-post_time_limit = 12
+post_time_limit = 2
 # max_per_hour limits the amount of posts that can be crossposted withing an hour. 0 means no limit.
 # Accepted values: Any integer
 max_per_hour = 0
