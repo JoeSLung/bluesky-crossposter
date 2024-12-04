@@ -43,7 +43,7 @@ max_retries = 5
 # post_time_limit sets max time limit (in hours) for fetching posts. If no database exists, all posts within this time 
 # period will be posted.
 # Accepted values: Integers greater than 0
-post_time_limit = 1.2
+post_time_limit = 12
 # max_per_hour limits the amount of posts that can be crossposted withing an hour. 0 means no limit.
 # Accepted values: Any integer
 max_per_hour = 0
