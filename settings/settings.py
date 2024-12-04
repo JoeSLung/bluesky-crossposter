@@ -34,7 +34,7 @@ post_default = True
 # added to the tweet and it will still work.
 # Accepted values: Any language tag in quotes (https://en.wikipedia.org/wiki/IETF_language_tag)
 mastodon_lang = ""
-twitter_lang = ""
+twitter_lang = "https://en.m.wikipedia.org/wiki/German_language"
 # quote_posts determines if quote reposts of other users' posts should be crossposted with the quoted post included as a link. If False these posts will be ignored.
 quote_posts = False
 # max_retries sets maximum amount of times poster will retry a failed crosspost.
