@@ -34,7 +34,7 @@ post_default = True
 # added to the tweet and it will still work.
 # Accepted values: Any language tag in quotes (https://en.wikipedia.org/wiki/IETF_language_tag)
 mastodon_lang = ""
-twitter_lang = "https://en.m.wikipedia.org/wiki/German_language"
+twitter_lang = ""
 # quote_posts determines if quote reposts of other users' posts should be crossposted with the quoted post included as a link. If False these posts will be ignored.
 quote_posts = False
 # max_retries sets maximum amount of times poster will retry a failed crosspost.
@@ -43,7 +43,7 @@ max_retries = 5
 # post_time_limit sets max time limit (in hours) for fetching posts. If no database exists, all posts within this time 
 # period will be posted.
 # Accepted values: Integers greater than 0
-post_time_limit = 12
+post_time_limit = 1.1
 # max_per_hour limits the amount of posts that can be crossposted withing an hour. 0 means no limit.
 # Accepted values: Any integer
 max_per_hour = 0
