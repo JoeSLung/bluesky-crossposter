@@ -4,7 +4,7 @@ import os
 # Your bluesky handle should include your instance, so for example handle.bsky.social if you are on the main one.
 BSKY_HANDLE = "anythingbotde.bsky.social"
 # Generate an app password in the settings on bluesky. DO NOT use your main password.
-BSKY_PASSWORD = "burrrrrrrr"
+BSKY_PASSWORD = "tz64-vyfk-apvr-pvna"
 # Your mastodon handle. Not needed for authentication, but used for making "quote posts".
 MASTODON_HANDLE = ""
 # The mastodon instance your account is on.
